@@ -1,7 +1,7 @@
 # Spiking Neural Network Tutorials
 
 snnTorch로 배우는 스파이킹 신경망(SNN) 튜토리얼 시리즈.
-뉴런 모델과 입력 인코딩에서 시작해, 국소 학습 규칙(STDP, 3-factor R-STDP, e-prop)과 예측 부호화까지 노트북 01–05로 이어집니다.
+뉴런 모델과 입력 인코딩에서 시작해, 국소 학습 규칙(STDP, 3-factor R-STDP, e-prop)과 예측 부호화까지 노트북 01–06으로 이어집니다.
 
 ## 노트북 구성
 
@@ -10,8 +10,9 @@ snnTorch로 배우는 스파이킹 신경망(SNN) 튜토리얼 시리즈.
 | 01 | `01_snn_neuron_and_encoding.ipynb` | SNN 뉴런 모델과 입력 인코딩 |
 | 02 | `02_stdp_unsupervised.ipynb` | STDP 기반 비지도 학습 |
 | 03 | `03_three_factor_rstdp.ipynb` | 3-factor 보상 변조 STDP (R-STDP) |
-| 04 | `04_eprop.ipynb` | e-prop (eligibility propagation) |
-| 05 | `05_predictive_coding.ipynb` | 예측 부호화 (predictive coding) |
+| 04 | `04_gradient_backprop.ipynb` | gradient 기반 SNN 학습 (surrogate·BPTT·e-prop·feedback alignment·DECOLLE) |
+| 05 | *(작성 예정)* | 생물학적 방법만으로 복잡한 과제 학습·추론 |
+| 06 | `06_predictive_coding.ipynb` | 예측 부호화 (predictive coding) |
 
 ## 실행 환경
 
@@ -47,4 +48,4 @@ python -c "import torch, snntorch; print('torch', torch.__version__, '| snntorch
 # 예시 출력: torch 2.12.1 | snntorch 1.0.0 | MPS True
 ```
 
-JupyterLab이 열리면 노트북을 01 → 05 순서로 열고, 커널을 **Python (snn-tutorial)** 로 선택하세요.
+JupyterLab이 열리면 노트북을 01 → 06 순서로 열고, 커널을 **Python (snn-tutorial)** 로 선택하세요.
