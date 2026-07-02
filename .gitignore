@@ -1,4 +1,4 @@
-# 파이썬 가상환경
+# Python virtual env
 .venv/
 venv/
 env/
@@ -6,17 +6,17 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# 파이썬 캐시
+# Python cache
 __pycache__/
 *.py[cod]
 
 # macOS
 .DS_Store
 
-# 초안 / 스크래치 (버전관리 제외)
+# drafts
 drafts/
 
-# 학습 산출물 (생기면 자동 제외)
+# Training Outputs
 *.pt
 *.pth
 *.ckpt
