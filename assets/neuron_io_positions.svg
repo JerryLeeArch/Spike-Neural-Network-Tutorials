@@ -1,0 +1,44 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<title>한 뉴런의 입력·내부·출력과 앞뒤 뉴런의 연결</title>
+<rect x="0" y="0" width="680" height="300" fill="white"/>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9ca3af"/></marker>
+<marker id="arp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker>
+</defs>
+
+<text x="57" y="30" text-anchor="middle" font-size="13" fill="#1f2937">앞 뉴런들</text>
+<circle cx="57" cy="80" r="19" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="57" cy="152" r="19" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="57" cy="224" r="19" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<text x="57" y="85" text-anchor="middle" font-size="15" fill="#7c3aed">S<tspan dy="4" font-size="11">1</tspan></text>
+<text x="57" y="157" text-anchor="middle" font-size="15" fill="#7c3aed">S<tspan dy="4" font-size="11">2</tspan></text>
+<text x="57" y="229" text-anchor="middle" font-size="15" fill="#7c3aed">S<tspan dy="4" font-size="11">3</tspan></text>
+
+<line x1="77" y1="82" x2="205" y2="144" stroke="#9ca3af" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="77" y1="152" x2="205" y2="152" stroke="#9ca3af" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="77" y1="222" x2="205" y2="160" stroke="#9ca3af" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="138" y="106" text-anchor="middle" font-size="11" fill="#1f2937">w<tspan dy="4" font-size="9">1</tspan></text>
+<text x="150" y="145" text-anchor="middle" font-size="11" fill="#1f2937">w<tspan dy="4" font-size="9">2</tspan></text>
+<text x="138" y="200" text-anchor="middle" font-size="11" fill="#1f2937">w<tspan dy="4" font-size="9">3</tspan></text>
+
+<rect x="198" y="57" width="352" height="196" rx="12" fill="none" stroke="#6b7280" stroke-width="2"/>
+<text x="212" y="78" text-anchor="start" font-size="13" fill="#1f2937">현재 뉴런</text>
+
+<rect x="212" y="118" width="78" height="60" rx="8" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="326" y="118" width="78" height="60" rx="8" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+<rect x="440" y="118" width="78" height="60" rx="8" fill="none" stroke="#7c3aed" stroke-width="1.8"/>
+<text x="251" y="154" text-anchor="middle" font-size="16" fill="#1f2937">I[t]</text>
+<text x="365" y="154" text-anchor="middle" font-size="16" fill="#1f2937">V[t]</text>
+<text x="479" y="154" text-anchor="middle" font-size="16" fill="#7c3aed">S[t]</text>
+<text x="251" y="198" text-anchor="middle" font-size="11" fill="#4b5563">입력 · 밖에서 들어옴</text>
+<text x="365" y="198" text-anchor="middle" font-size="11" fill="#4b5563">내부 · 내 안에 쌓임</text>
+<text x="479" y="198" text-anchor="middle" font-size="11" fill="#7c3aed">출력 · 밖으로 나감</text>
+
+<line x1="290" y1="148" x2="326" y2="148" stroke="#9ca3af" stroke-width="1.6" marker-end="url(#ar)"/>
+<line x1="404" y1="148" x2="440" y2="148" stroke="#7c3aed" stroke-width="1.8" marker-end="url(#arp)"/>
+<text x="422" y="110" text-anchor="middle" font-size="11" fill="#4b5563">V ≥ Vth</text>
+
+<circle cx="606" cy="148" r="20" fill="none" stroke="#6b7280" stroke-width="2"/>
+<text x="606" y="194" text-anchor="middle" font-size="12" fill="#1f2937">뒤 뉴런</text>
+<line x1="518" y1="148" x2="584" y2="148" stroke="#7c3aed" stroke-width="1.8" marker-end="url(#arp)"/>
+</svg>
